@@ -11,12 +11,13 @@ const color = {
   sample:'apple',
   no: 100
 }
-//   일반 객체를  json 데이터로 벼경한다.
+//   일반 객체를  json 데이터:문자데이터로 벼경한다.
 //  JSON은 전역 객체이다.
 const str = JSON.stringify(color);
 console.log(str);
 console.log(typeof str);
 
+// 
 const obj = JSON.parse(str);
 console.log(obj)
 console.log(typeof obj);
