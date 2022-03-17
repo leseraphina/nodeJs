@@ -11,5 +11,7 @@ function toOb(a,b,c){
     c:c
   }
 }
+// 함수에 배열을 넣을 때
 console.log(toOb(fruit[0],fruit[1],fruit[2]));
+//  전개로 하면 편리하다.
 console.log(toOb(...fruit));

@@ -7,4 +7,4 @@ export const color ={
   sample:'apple'
 }
 
-export default 123;
+export default 'welcome';
