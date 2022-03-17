@@ -1,3 +1,4 @@
+
 let Rectangle = class {
   constructor(height, width) {
     this.height = height;
@@ -13,4 +14,5 @@ let Rect = class Rectangle2 {
     this.width = width;
   }
 };
+
 console.log(Rect.name);

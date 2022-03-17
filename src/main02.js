@@ -1,3 +1,5 @@
+// 클래스 확산 : extends, super 설명
+
 class Book{
   constructor(type,title){
     this.type = type;
