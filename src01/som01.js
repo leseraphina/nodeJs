@@ -3,7 +3,7 @@ import $ from 'jquery';
 import num from './export01';
 
 // import { ram,color } from './export02';
-// 이름변경하기
+// 이름변경하기 : 이 안되므로 as 로 변경한다.
 // import { ram,color:red } from './export02';
 // import { ram, color as red } from './export02';
 import * as main from './export02';
